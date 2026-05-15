@@ -110,7 +110,7 @@ button {
   gap: 40px;
 }
 
-.nav-item_link {
+.nav-list {
   transition-property: background-color;
   position: relative;
   color: #404bbf;
@@ -119,7 +119,7 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-item_link:hover::after {
+.nav-list:hover::after {
   position: absolute;
   content: "";
   bottom: -1px;
