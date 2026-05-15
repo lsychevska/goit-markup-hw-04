@@ -110,16 +110,15 @@ button {
   gap: 40px;
 }
 
-.nav-list:first-child {
+.nav-item {
   transition-property: background-color;
   position: relative;
-  color: #404bbf;
   height: 52px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-list:first-child:hover::after {
+.nav-item:hover::after {
   position: absolute;
   content: "";
   bottom: -1px;
